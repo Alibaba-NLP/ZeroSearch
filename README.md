@@ -24,7 +24,7 @@
 
 # 📌 Introduction
 
-- We propose ZeroSearch, a novel reinforcement learning framework that incentivizes the search capability of LLMs without interacting with real search engines.
+- We propose ZeroSearch, a novel reinforcement learning framework that incentivizes the search capability of LLMs without interacting with real search engines during training.
 - Through supervised fine-tuning, we transform the LLM into a retrieval module capable of generating both relevant and noisy documents in response to a query. We further introduce a curriculum rollout mechanism to progressively elicit the model’s reasoning ability by exposing it to increasingly challenging retrieval scenarios.
 - We conduct extensive experiments on both in-domain and out-of-domain datasets. Results show that ZeroSearch outperforms real search engine-based models while incurring zero API cost. Moreover, it generalizes well across both base and instruction-tuned LLMs of various sizes and supports different reinforcement learning algorithms.
 
